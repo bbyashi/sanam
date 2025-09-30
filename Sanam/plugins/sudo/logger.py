@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils.database import add_off, add_on
-from Sanam .utils.decorators.language import language
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils.database import add_off, add_on
+from Sanam.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

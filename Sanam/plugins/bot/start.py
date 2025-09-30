@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from Sanam  import app
-from Sanam .misc import _boot_
-from Sanam .plugins.sudo.sudoers import sudoers_list
-from Sanam .utils.database import (
+from Sanam import app
+from Sanam.misc import _boot_
+from Sanam.plugins.sudo.sudoers import sudoers_list
+from Sanam.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -17,10 +17,10 @@ from Sanam .utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Sanam .utils import bot_sys_stats
-from Sanam .utils.decorators.language import LanguageStart
-from Sanam .utils.formatters import get_readable_time
-from Sanam .utils.inline import help_pannel, private_panel, start_panel
+from Sanam.utils import bot_sys_stats
+from Sanam.utils.decorators.language import LanguageStart
+from Sanam.utils.formatters import get_readable_time
+from Sanam.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 

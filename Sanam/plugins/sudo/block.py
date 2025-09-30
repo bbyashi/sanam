@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils.database import add_gban_user, remove_gban_user
-from Sanam .utils.decorators.language import language
-from Sanam .utils.extraction import extract_user
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils.database import add_gban_user, remove_gban_user
+from Sanam.utils.decorators.language import language
+from Sanam.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

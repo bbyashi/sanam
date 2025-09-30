@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from Sanam  import YouTube, app
-from Sanam .core.call import Aviax
-from Sanam .misc import db
-from Sanam .utils.database import get_loop
-from Sanam .utils.decorators import AdminRightsCheck
-from Sanam .utils.inline import close_markup, stream_markup
-from Sanam .utils.stream.autoclear import auto_clean
-from Sanam .utils.thumbnails import gen_thumb
+from Sanam import YouTube, app
+from Sanam.core.call import Aviax
+from Sanam.misc import db
+from Sanam.utils.database import get_loop
+from Sanam.utils.decorators import AdminRightsCheck
+from Sanam.utils.inline import close_markup, stream_markup
+from Sanam.utils.stream.autoclear import auto_clean
+from Sanam.utils.thumbnails import gen_thumb
 from config import BANNED_USERS
 
 

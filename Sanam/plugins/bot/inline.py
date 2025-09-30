@@ -5,8 +5,8 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from Sanam  import app
-from Sanam .utils.inlinequery import answer
+from Sanam import app
+from Sanam.utils.inlinequery import answer
 from config import BANNED_USERS
 
 

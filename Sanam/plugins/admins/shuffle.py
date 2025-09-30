@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .misc import db
-from Sanam .utils.decorators import AdminRightsCheck
-from Sanam .utils.inline import close_markup
+from Sanam import app
+from Sanam.misc import db
+from Sanam.utils.decorators import AdminRightsCheck
+from Sanam.utils.inline import close_markup
 from config import BANNED_USERS
 
 

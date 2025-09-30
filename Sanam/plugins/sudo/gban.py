@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils import get_readable_time
-from Sanam .utils.database import (
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils import get_readable_time
+from Sanam.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from Sanam .utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from Sanam .utils.decorators.language import language
-from Sanam .utils.extraction import extract_user
+from Sanam.utils.decorators.language import language
+from Sanam.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

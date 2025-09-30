@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from Sanam  import LOGGER, YouTube, app
-from Sanam .misc import db
-from Sanam .utils.database import (
+from Sanam import LOGGER, YouTube, app
+from Sanam.misc import db
+from Sanam.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from Sanam .utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from Sanam .utils.exceptions import AssistantErr
-from Sanam .utils.formatters import check_duration, seconds_to_min, speed_converter
-from Sanam .utils.inline.play import stream_markup
-from Sanam .utils.stream.autoclear import auto_clean
-from Sanam .utils.thumbnails import gen_thumb
+from Sanam.utils.exceptions import AssistantErr
+from Sanam.utils.formatters import check_duration, seconds_to_min, speed_converter
+from Sanam.utils.inline.play import stream_markup
+from Sanam.utils.stream.autoclear import auto_clean
+from Sanam.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}

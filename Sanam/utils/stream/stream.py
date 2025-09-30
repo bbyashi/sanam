@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from Sanam  import Carbon, YouTube, app
-from Sanam .core.call import Aviax
-from Sanam .misc import db
-from Sanam .utils.database import add_active_video_chat, is_active_chat
-from Sanam .utils.exceptions import AssistantErr
-from Sanam .utils.inline import aq_markup, close_markup, stream_markup
-from Sanam .utils.pastebin import AviaxBin
-from Sanam .utils.stream.queue import put_queue, put_queue_index
-from Sanam .utils.thumbnails import gen_thumb
+from Sanam import Carbon, YouTube, app
+from Sanam.core.call import Aviax
+from Sanam.misc import db
+from Sanam.utils.database import add_active_video_chat, is_active_chat
+from Sanam.utils.exceptions import AssistantErr
+from Sanam.utils.inline import aq_markup, close_markup, stream_markup
+from Sanam.utils.pastebin import AviaxBin
+from Sanam.utils.stream.queue import put_queue, put_queue_index
+from Sanam.utils.thumbnails import gen_thumb
 
 
 async def stream(

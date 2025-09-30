@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .utils import extract_user, int_to_alpha
-from Sanam .utils.database import (
+from Sanam import app
+from Sanam.utils import extract_user, int_to_alpha
+from Sanam.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from Sanam .utils.decorators import AdminActual, language
-from Sanam .utils.inline import close_markup
+from Sanam.utils.decorators import AdminActual, language
+from Sanam.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

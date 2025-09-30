@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .core.call import Aviax
-from Sanam .utils import bot_sys_stats
-from Sanam .utils.decorators.language import language
-from Sanam .utils.inline import supp_markup
+from Sanam import app
+from Sanam.core.call import Aviax
+from Sanam.utils import bot_sys_stats
+from Sanam.utils.decorators.language import language
+from Sanam.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 

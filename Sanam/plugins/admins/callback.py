@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Sanam  import YouTube, app
-from Sanam .core.call import Aviax
-from Sanam .misc import SUDOERS, db
-from Sanam .utils.database import (
+from Sanam import YouTube, app
+from Sanam.core.call import Aviax
+from Sanam.misc import SUDOERS, db
+from Sanam.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from Sanam .utils.database import (
     music_on,
     set_loop,
 )
-from Sanam .utils.decorators.language import languageCB
-from Sanam .utils.formatters import seconds_to_min
-from Sanam .utils.inline import close_markup, stream_markup, stream_markup_timer
-from Sanam .utils.stream.autoclear import auto_clean
-from Sanam .utils.thumbnails import gen_thumb
+from Sanam.utils.decorators.language import languageCB
+from Sanam.utils.formatters import seconds_to_min
+from Sanam.utils.inline import close_markup, stream_markup, stream_markup_timer
+from Sanam.utils.stream.autoclear import auto_clean
+from Sanam.utils.thumbnails import gen_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

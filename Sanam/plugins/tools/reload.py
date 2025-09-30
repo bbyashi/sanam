@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from Sanam  import app
-from Sanam .core.call import Aviax
-from Sanam .misc import db
-from Sanam .utils.database import get_assistant, get_authuser_names, get_cmode
-from Sanam .utils.decorators import ActualAdminCB, AdminActual, language
-from Sanam .utils.formatters import alpha_to_int, get_readable_time
+from Sanam import app
+from Sanam.core.call import Aviax
+from Sanam.misc import db
+from Sanam.utils.database import get_assistant, get_authuser_names, get_cmode
+from Sanam.utils.decorators import ActualAdminCB, AdminActual, language
+from Sanam.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}

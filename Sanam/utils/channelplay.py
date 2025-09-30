@@ -1,5 +1,5 @@
-from Sanam  import app
-from Sanam .utils.database import get_cmode
+from Sanam import app
+from Sanam.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

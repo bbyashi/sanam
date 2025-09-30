@@ -1,7 +1,7 @@
 import asyncio
 
-from Sanam .misc import db
-from Sanam .utils.database import get_active_chats, is_music_playing
+from Sanam.misc import db
+from Sanam.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

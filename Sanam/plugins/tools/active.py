@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils.database import (
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,

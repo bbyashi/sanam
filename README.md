@@ -26,7 +26,7 @@ Click the button below to easily deploy **Dns Music Bot** on Heroku!
 
 **1. At First Copy & Paste Below Command.**
 
-```apt update -y && apt install sudo -y && sudo apt install curl ffmpeg git nano python3-pip tmux -y && cd && rm -rf Sh_M && git clone https://github.com/bbyashi/Sanam && cd Sh_M && pip3 install -r requirements.txt --force-reinstall && tmux```
+```apt update -y && apt install sudo -y && sudo apt install curl ffmpeg git nano python3-pip tmux -y && cd && rm -rf Sh_M && git clone https://github.com/bbyashi/Sanam&& cd Sh_M && pip3 install -r requirements.txt --force-reinstall && tmux```
 
 
 **2. Now Run This Command & Add Your Variables.**

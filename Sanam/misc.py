@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from Sanam .core.mongo import mongodb
+from Sanam.core.mongo import mongodb
 
 from .logging import LOGGER
 

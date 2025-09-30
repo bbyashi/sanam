@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils.database import add_sudo, remove_sudo
-from Sanam .utils.decorators.language import language
-from Sanam .utils.extraction import extract_user
-from Sanam .utils.inline import close_markup
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils.database import add_sudo, remove_sudo
+from Sanam.utils.decorators.language import language
+from Sanam.utils.extraction import extract_user
+from Sanam.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 

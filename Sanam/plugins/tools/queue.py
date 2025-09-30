@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from Sanam  import app
-from Sanam .misc import db
-from Sanam .utils import AviaxBin, get_channeplayCB, seconds_to_min
-from Sanam .utils.database import get_cmode, is_active_chat, is_music_playing
-from Sanam .utils.decorators.language import language, languageCB
-from Sanam .utils.inline import queue_back_markup, queue_markup
+from Sanam import app
+from Sanam.misc import db
+from Sanam.utils import AviaxBin, get_channeplayCB, seconds_to_min
+from Sanam.utils.database import get_cmode, is_active_chat, is_music_playing
+from Sanam.utils.decorators.language import language, languageCB
+from Sanam.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

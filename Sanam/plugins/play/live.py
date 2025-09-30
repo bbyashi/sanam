@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from Sanam  import YouTube, app
-from Sanam .utils.channelplay import get_channeplayCB
-from Sanam .utils.decorators.language import languageCB
-from Sanam .utils.stream.stream import stream
+from Sanam import YouTube, app
+from Sanam.utils.channelplay import get_channeplayCB
+from Sanam.utils.decorators.language import languageCB
+from Sanam.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

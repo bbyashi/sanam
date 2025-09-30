@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils.database import autoend_off,autoend_on,autoleave_off, autoleave_on,is_autoend,is_autoleave
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils.database import autoend_off,autoend_on,autoleave_off, autoleave_on,is_autoend,is_autoleave
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)

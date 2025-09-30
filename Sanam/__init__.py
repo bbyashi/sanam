@@ -1,8 +1,8 @@
-from Sanam .core.bot import Aviax
-from Sanam .core.dir import dirr
-from Sanam .core.git import git
-from Sanam .core.userbot import Userbot
-from Sanam .misc import dbb, heroku
+from Sanam.core.bot import Aviax
+from Sanam.core.dir import dirr
+from Sanam.core.git import git
+from Sanam.core.userbot import Userbot
+from Sanam.misc import dbb, heroku
 
 from .logging import LOGGER
 

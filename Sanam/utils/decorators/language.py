@@ -1,5 +1,5 @@
-from Sanam .misc import SUDOERS
-from Sanam .utils.database import get_lang, is_maintenance
+from Sanam.misc import SUDOERS
+from Sanam.utils.database import get_lang, is_maintenance
 from config import SUPPORT_GROUP
 from strings import get_string
 

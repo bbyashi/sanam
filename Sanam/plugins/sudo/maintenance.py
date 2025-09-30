@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils.database import (
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,

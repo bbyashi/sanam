@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import YouTube, app
-from Sanam .core.call import Aviax
-from Sanam .misc import db
-from Sanam .utils import AdminRightsCheck, seconds_to_min
-from Sanam .utils.inline import close_markup
+from Sanam import YouTube, app
+from Sanam.core.call import Aviax
+from Sanam.misc import db
+from Sanam.utils import AdminRightsCheck, seconds_to_min
+from Sanam.utils.inline import close_markup
 from config import BANNED_USERS
 
 

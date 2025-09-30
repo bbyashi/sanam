@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from Sanam  import app
-from Sanam .core.userbot import assistants
-from Sanam .misc import SUDOERS, mongodb
-from Sanam .plugins import ALL_MODULES
-from Sanam .utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
-from Sanam .utils.decorators.language import language, languageCB
-from Sanam .utils.inline.stats import back_stats_buttons, stats_buttons
+from Sanam import app
+from Sanam.core.userbot import assistants
+from Sanam.misc import SUDOERS, mongodb
+from Sanam.plugins import ALL_MODULES
+from Sanam.utils.database import get_served_chats, get_served_users, get_sudoers,is_autoend,is_autoleave
+from Sanam.utils.decorators.language import language, languageCB
+from Sanam.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 

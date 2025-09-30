@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils.decorators.language import language
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils.decorators.language import language
 
 
 def testspeed(m, _):

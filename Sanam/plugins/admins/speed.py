@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .core.call import Aviax
-from Sanam .misc import SUDOERS, db
-from Sanam .utils import AdminRightsCheck
-from Sanam .utils.database import is_active_chat, is_nonadmin_chat
-from Sanam .utils.decorators.language import languageCB
-from Sanam .utils.inline import close_markup, speed_markup
+from Sanam import app
+from Sanam.core.call import Aviax
+from Sanam.misc import SUDOERS, db
+from Sanam.utils import AdminRightsCheck
+from Sanam.utils.database import is_active_chat, is_nonadmin_chat
+from Sanam.utils.decorators.language import languageCB
+from Sanam.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

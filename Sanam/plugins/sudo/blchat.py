@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sanam  import app
-from Sanam .misc import SUDOERS
-from Sanam .utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from Sanam .utils.decorators.language import language
+from Sanam import app
+from Sanam.misc import SUDOERS
+from Sanam.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from Sanam.utils.decorators.language import language
 from config import BANNED_USERS
 
 

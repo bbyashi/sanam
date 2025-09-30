@@ -3,15 +3,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 from pytgcalls.exceptions import GroupCallNotFound
 import config
-from Sanam  import app
-from Sanam .misc import db
-from Sanam .core.call import Aviax, autoend, counter
-from Sanam .utils.database import get_client, set_loop, is_active_chat, is_autoend, is_autoleave
+from Sanam import app
+from Sanam.misc import db
+from Sanam.core.call import Aviax, autoend, counter
+from Sanam.utils.database import get_client, set_loop, is_active_chat, is_autoend, is_autoleave
 import logging
 
 async def auto_leave():
     while not await asyncio.sleep(900):
-        from Sanam .core.userbot import assistants
+        from Sanam.core.userbot import assistants
         ender = await is_autoleave()
         if not ender:
             continue

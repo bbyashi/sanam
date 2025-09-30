@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from Sanam  import app
-from Sanam .utils.database import (
+from Sanam import app
+from Sanam.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,16 +25,16 @@ from Sanam .utils.database import (
     skip_off,
     skip_on,
 )
-from Sanam .utils import bot_sys_stats
-from Sanam .utils.decorators.admins import ActualAdminCB
-from Sanam .utils.decorators.language import language, languageCB
-from Sanam .utils.inline.settings import (
+from Sanam.utils import bot_sys_stats
+from Sanam.utils.decorators.admins import ActualAdminCB
+from Sanam.utils.decorators.language import language, languageCB
+from Sanam.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from Sanam .utils.inline.start import private_panel
+from Sanam.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 

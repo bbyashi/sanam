@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from Sanam  import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from Sanam .core.call import Aviax
-from Sanam .utils import seconds_to_min, time_to_seconds
-from Sanam .utils.channelplay import get_channeplayCB
-from Sanam .utils.decorators.language import languageCB
-from Sanam .utils.decorators.play import PlayWrapper
-from Sanam .utils.formatters import formats
-from Sanam .utils.inline import (
+from Sanam import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from Sanam.core.call import Aviax
+from Sanam.utils import seconds_to_min, time_to_seconds
+from Sanam.utils.channelplay import get_channeplayCB
+from Sanam.utils.decorators.language import languageCB
+from Sanam.utils.decorators.play import PlayWrapper
+from Sanam.utils.formatters import formats
+from Sanam.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from Sanam .utils.logger import play_logs
-from Sanam .utils.stream.stream import stream
+from Sanam.utils.logger import play_logs
+from Sanam.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 

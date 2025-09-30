@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from Sanam  import app
-from Sanam .utils.database import is_on_off
+from Sanam import app
+from Sanam.utils.database import is_on_off
 from config import LOG_GROUP_ID
 
 

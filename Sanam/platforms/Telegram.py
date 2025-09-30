@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from Sanam  import app
-from Sanam .utils.formatters import (
+from Sanam import app
+from Sanam.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
