@@ -35,7 +35,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("Sanam .plugins" + all_module)
+        importlib.import_module("Sanam.plugins" + all_module)
     LOGGER("Sanam .plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Aviax.start()
@@ -55,8 +55,9 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Sanam ").info("Stopping Aviax Music Bot...")
+    LOGGER("Sanam").info("Stopping Aviax Music Bot...")
 
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(init())
+
